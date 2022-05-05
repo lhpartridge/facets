@@ -1,0 +1,387 @@
+:root {
+    --prim: #6b933a;
+    --sec: #c99961;
+    --tert: #1e5c3d;
+    --quat: #1c412e;
+}
+
+/* #root {
+    max-width: 100%;
+} */
+
+* {
+    box-sizing: border-box;
+
+}
+
+body,
+header,
+main,
+footer {
+
+    background-color: var(--prim);
+    font-family: 'Gruppo', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.App {
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    margin: 0;
+    padding: 0;
+    font-size: calc( 84px + (144 - 84) * (100vw - 400px) / (800 - 400));
+    /* font-size: calc(84px + ((256 - 84) * (100vw - 300px) / 1600 - 300)); */
+    /* font-size: 84px; */
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.h2 {
+    font-size: calc( 48px + (100 - 48) * (100vw - 400px) / (800 - 400));
+    /* font-size: 128px; */
+    color: #fff;
+}
+
+.h3 {
+    font-size: calc( 36px + (84 - 36) * (100vw - 400px) / (800 - 400));
+    color: #fff;
+}
+
+.h4 {
+    font-size: calc( 20px + (28 - 20) * (100vw - 400px) / (800 - 400));
+}
+
+.h5 {
+    font-size: calc( 20px + (24 - 20) * (100vw - 400px) / (800 - 400));
+}
+
+.text {
+    font-size: 24px;
+    font-size: calc( 20px + (24 - 20) * (100vw - 400px) / (800 - 400));
+    font-weight: 700;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+
+    /* text-align: center; */
+}
+
+.section, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* .top-section {
+    align-items: center;
+} */
+
+.top-nav {
+    /* width: auto; */
+    background-color: var(--prim);
+    
+}
+
+.top-nav-container {
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+}
+
+.cart-container {
+    /* border: 2px solid blue; */
+}
+
+.cart {
+    margin: 0 30px 0 1px;
+    padding: 8px;
+    font-size: 28px;
+    background-color: #fff;
+    color: var(--prim);
+
+}
+
+.cart:hover {
+    font-size: 40px;
+    color: var(--tert);
+}
+
+ul {
+    list-style-type: none;
+    /* border: 2px solid red; */
+}
+
+.top-nav-item {
+    margin: 0 1px;
+    /* width: 140px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--quat);
+    background-color: #fff;
+}
+
+.top-nav-link {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--quat);
+    background-color: #fff;
+    /* border: 2px solid blue; */
+}
+
+.top-nav-btn {
+    background-color: #fff;
+    /* border: 2px solid blue; */
+}
+
+.top-nav-btn:hover {
+    color: #fff;
+    background-color: var(--tert);
+}
+
+.log-in-btn {
+    font-size: 20px;
+}
+
+.sloganDiv {
+    
+    /* position: relative; */
+    /* width: auto; */
+    /* height: 120px; */
+    /* border: 2px solid purple; */
+    justify-content: space-around;
+    /* display: block; */
+    /* text-align: center; */
+    /* display: block; */
+}
+
+.slogan {
+    /* width: 50vw; */
+    /* margin: 0 auto; */
+    /* position: absolute; */
+    /* display: inline; */
+    /* justify-content: space-around; */
+    font-size: 56px;
+    font-size: calc( 32px + (52 - 32) * (100vw - 400px) / (800 - 400));
+    /* border: 2px solid red; */
+}
+
+.carousel {
+    max-width: 100%;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+
+.carousel-item {
+    /* width: 50%; */
+    display: block;
+    text-align: center;
+
+}
+
+.carousel-image {
+    margin: 0 auto;
+    /* width: 25px; */
+    /* display: block; */
+    /* text-align: center; */
+
+}
+
+.jewelry-row {
+    justify-content: space-around;
+}
+
+.card {
+    width: 18rem;
+
+}
+
+.jewelry-image {
+    width: 25vw;
+}
+
+.blog-section {
+    /* position: relative; */
+}
+
+.blog-row {
+    /* display: inline; */
+    /* height: 25vh; */
+}
+
+.blog-header, .error-header {
+    padding: 0 10px;
+    font-size: calc( 48px + (84 - 48) * (100vw - 400px) / (800 - 400));
+}
+
+.blog-subheader, .error-subheader {
+    padding: 0 10px;
+    font-size: calc( 32px + (64 - 32) * (100vw - 400px) / (800 - 400));
+}
+
+.blog-text {
+    margin: 0;
+    /* padding: 20px 50px; */
+    font-size: 28px;
+    background-color: var(--sec);
+}
+
+.image-div {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.blog-image {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-text {
+    text-align: center;
+}
+
+.about-row {
+    /* text-align: center; */
+}
+
+.about-image {
+    margin: 0 0 40px 0;
+    /* width: 100px; */
+    max-width: 15vw;
+}
+
+.about-text {
+    margin: 0 auto;
+    padding: 40px;
+    background-color: var(--sec);
+}
+
+.figure {
+    margin: 8px;
+}
+
+.figcaption {
+    margin-bottom: 2px;
+    font-size: 32px;
+    background-color: #fff;
+}
+
+.fig-desc {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 28px;
+}
+
+.checkout-section { 
+    background-color: var(--prim);
+}
+
+.checkout-row {
+    /* display: flex; */
+    justify-content: space-around;
+    /* background-color: #fff; */
+    margin-bottom: 40px;
+}
+
+.checkout-col {
+    background-color: #daf9b5;
+    
+}
+
+.table-col {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    background-color: #fff;
+}
+
+.confirm-btn {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    background-color: #fff;
+}
+
+footer {
+    padding: 20px 0;
+    color: #fff;
+    background-color: var(--quat);
+}
+
+.bottom-nav, .contact, .map, .community  {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 99%;
+    font-size: calc(12px + (24 - 12) * (100vw - 400px) / (800 - 400));
+}
+
+.bottom-nav-item {
+    padding: 0;
+    width: 100%;
+}
+
+.bottom-nav-item:hover {
+    background-color: var(--prim);
+}
+
+.bottom-nav-link {
+    font-size: calc(12px + (18 - 12) * (100vw - 400px) / (800 - 400));
+    font-weight: 500;
+    color: var(--tert);
+}
+
+.bottom-nav-link:hover {
+    color: #fff;
+}
+
+.blog-link {
+    color: #fff;
+}
+
+.blog-link:hover {
+    font-size: calc(14px + (20 - 14) * (100vw - 400px) / (800 - 400));
+    color: var(--prim);
+}
+
+.sign-up {
+    padding: 0 10px;
+    width: 90%;
+    font-size: calc(12px + (16 - 12) * (100vw - 400px) / (800 - 400));
+}
+
+.bottom-footer-row {
+    justify-content: space-around;
+}
+
+.colophon {
+    bottom: 0;
+    margin: 0;
+    padding: 20px;
+    font-size: 36px;
+    font-size: calc(12px + (20 - 12) * (100vw - 400px) / (800 - 400));
+    color: white;
+    align-items: center;
+}
+
+.social, .payment {
+    padding-top: 20px;
+    font-size: 36px;
+    align-items: center;
+}
+
+.social:hover, .payment:hover {
+    font-size: 40px;
+    color: var(--prim);
+}
