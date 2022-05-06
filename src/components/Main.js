@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Carousel from './Carousel'
+import Models from './Models'
 import Jewelry from './Jewelry'
 import Decor from './Decor'
 import Holiday from './Holiday'
@@ -12,12 +13,13 @@ const Main=()=> {
     return(
         <main>
             {/* <Carousel /> */}
+            {/* <Models /> */}
             {/* <Jewelry /> */}
             {/* <Decor /> */}
             {/* <Holiday /> */}
             {/* <About /> */}
-            {/* <Blog /> */}
-            <CheckOut />
+            <Blog />
+            {/* <CheckOut /> */}
             {/* <Error /> */}
         </main>
     )

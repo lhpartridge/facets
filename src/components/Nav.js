@@ -8,8 +8,8 @@ const Nav=()=> {
         <section className='section top-section'>
 
             {/* <div className='row'>  */}            
-                <nav class="navbar top-nav">
-                    <ul className='d-flex'>
+                <nav class="navbar nav top-nav navbar-expand-md ">
+                    <ul className='ul d-flex collapse navbar-collapse'>
                         <li className='nav-item top-nav-item'>
                             <a href='#link' class="nav-link top-nav-link">Home</a>
                         </li>
@@ -29,17 +29,38 @@ const Nav=()=> {
                         </li>
 
                     </ul>
-                    <div className='d-flex'>
+                    <ul className='d-flex'>
+                        <li className='nav-item top-nav-item'>
+                            <input class="form-control mr-sm-2 top-nav-item search-item" type="search" placeholder="Search FACETS" aria-label="Search"/>
+                            
+                        </li>
+                        <li className='nav-item top-nav-item'>
+                            <button class="btn top-nav-btn my-2 my-sm-0 top-nav-item" type="submit">Search</button>
+                        </li>
+                        <li className='nav-item  top-nav-item'>
+                            {/* <input class="form-control mr-sm-2 top-nav-item log-in" type="email" placeholder="Enter your email" aria-label="Search"/> */}
+                        </li>
+                        <li class="nav-item top-nav-item log-in">
+                        <button class="btn top-nav-btn my-2 my-sm-0 top-nav-item log-in-btn" type="submit">Log in</button>
+                        </li>
+                        <li className='nav-item top-nav-item'>
+                            <div className='cart'>
+                                <FaShoppingCart />
+                            </div>
+                        </li>
+
+                    </ul>
+                    {/* <div className='d-flex'>
                         <form class="form-inline d-flex">
                             <input class="form-control mr-sm-2 top-nav-item" type="search" placeholder="Search FACETS" aria-label="Search"/>
                             <button class="btn top-nav-btn my-2 my-sm-0 top-nav-item" type="submit">Search</button>
                             <input class="form-control mr-sm-2 top-nav-item log-in" type="email" placeholder="Enter your email" aria-label="Search"/>
-                            {/* <button class="btn top-nav-btn my-2 my-sm-0 top-nav-item log-in-btn" type="submit">Log in</button> */}
+                            <button class="btn top-nav-btn my-2 my-sm-0 top-nav-item log-in-btn" type="submit">Log in</button>
                         </form>
                         <div className='cart'>
                             <FaShoppingCart />
                         </div>
-                    </div>
+                    </div> */}
                 </nav>
             {/* </div> */}
             

@@ -6,14 +6,14 @@ const CheckOut=()=> {
 
         <section className="section checkout-section container-fluid">
 
-            <div className="row"> 
+            {/* <div className="row"> 
                 <div className="col-md-6">
                     <p className="checkout-text">Check out here:  </p>
                 </div>
                 <div className="col-md-6">
                     <button type="button" className="btn btn-link  nav-button" id="checkout">Checkout</button>
                 </div>
-            </div>
+            </div> */}
 
             <div className="row checkout-row">
                 <div className="checkout-col col-md-6">
@@ -21,18 +21,18 @@ const CheckOut=()=> {
                 {/* <!--changed from shoppingDiv--> */}
                     <div className="order-buttons">
                     {/* <!--changed from shopping-buttons--> */}
-                        <button type="button" className="btn" id="orderBtn"><span id="orderItems">0</span> item(s) - $<span id="orderSubTotal">0.00</span></button>
+                        <button type="button" className="btn orderItems-btn" id="orderBtn"><span id="orderItems">0</span> item(s) - $<span id="orderSubTotal">0.00</span></button>
                         {/* <!--changed from cartSubTotal--> */}
                     </div>
                 </div>
                 <div className="row">
                 <div className="col-md-11">
-                    <h2 className="checkout-header">Checkout</h2>
-                    <p className="checkout-text">We hope you love your math art!</p>
-                    <p className="checkout-text mb-1">Join the FACETS community to see new items!</p>
+                    {/* <h2 className="checkout-header">Checkout</h2> */}
+                    <p className="text checkout-text">We hope you love your math art!</p>
+                    <p className="text checkout-text mb-1">Join the FACETS community to see new items!</p>
                 </div>
                 <div className="col-md-1">
-                    <p className="checkout-item-count">
+                    <p className="text checkout-item-count">
                         <span id="checkoutItemCount"></span>
                    </p>
                 </div>
@@ -72,7 +72,7 @@ const CheckOut=()=> {
                 </div>
 
                 <div className="row">
-                <div className="col">
+                <div className="col confirm-order">
                     <button className="btn confirm-btn" id="confirmButton">confirm order</button>
                 </div>
                 </div>

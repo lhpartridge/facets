@@ -43,10 +43,10 @@ const Footer=()=> {
                 <div className='contact col-md-3'>
                     <div className='row'>
                         <div className='contact col'>
-                            <h4 className='h4'>Contact Us</h4>
-                            <h5 className='h5'>555 Boulevard Street</h5>
-                            <h5 className='h5'>MyTown, MyState</h5>
-                            <h5 className='h5'>(601) 555-1212</h5>
+                            <h4 className='h4 contact'>Contact Us</h4>
+                            <h5 className='h5 contact'>555 Boulevard Street</h5>
+                            <h5 className='h5 contact'>MyTown, MyState</h5>
+                            <h5 className='h5 contact'>(601) 555-1212</h5>
                         </div>
                     </div>
                 </div>

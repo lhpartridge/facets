@@ -3,9 +3,10 @@ import Nav from './Nav'
 
 const Component=()=> {
     return(
-        <div className='header'>
-            <Nav />
-            
+        <div className='header container'>
+            <div className='top-nav-row row'>
+                <Nav />
+            </div>
             <h1 className='h1'>Facets</h1>
             <div className='sloganDiv'>
                 <h3 className='slogan slogan-1'>the beauty of mathematics</h3>
